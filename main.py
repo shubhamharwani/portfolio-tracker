@@ -13,7 +13,7 @@ if file is None:
     st.stop()
 else:
     # read excel file
-    df = pd.read_excel(file)
+    df = pd.read_csv(file)
     df = df.sort_values(by='Ticker',ascending=True)
     
     # create a list of tickers
