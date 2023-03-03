@@ -4,8 +4,8 @@ import yfinance as yf
 import datetime as dt
 import streamlit as st
 
-st.set_page_config(page_title='Portfolio Checker',layout='centered',page_icon=':zap:')
-st.subheader('Portfolio Checker')
+st.set_page_config(page_title='Portfolio Tracker',layout='centered',page_icon=':zap:')
+st.subheader('Portfolio Tracker')
 
 file = st.file_uploader('Upload Excel File',accept_multiple_files=False)
 
