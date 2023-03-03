@@ -69,7 +69,7 @@ else:
 
 wincount = len(win)
 losscount = len(loss)
-winrate = wincount/(wincount+losscount)*100
+winrate = round(wincount/(wincount+losscount)*100,2)
 
 avgwin = round(sum(win)/len(win),2)
 avgloss = round(sum(loss)/len(loss),2)
