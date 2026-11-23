@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title='Portfolio Tracker',layout='centered',page_icon=':zap:')
 st.subheader('Portfolio Tracker')
 
-file = st.file_uploader('Upload Excel File',accept_multiple_files=False)
+file = st.file_uploader('Upload CSV File',accept_multiple_files=False)
 
 if file is None:
     st.stop()
